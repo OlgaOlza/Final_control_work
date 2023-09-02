@@ -8,6 +8,7 @@
 // ["1234", "1567", "-2", "computer science"] -> ["-2"]
 // ["Russia", "Denmark", "Kazan"] -> []
 
+
 // Метод проверки ввода.
 string UserText(string text, string message)
 {
@@ -18,6 +19,7 @@ string UserText(string text, string message)
     }
     return text;
 }
+
 // Метод удаления лишних пробелов.
 string ExtraSpaceRemover(string text)
 {
@@ -29,6 +31,7 @@ string ExtraSpaceRemover(string text)
     }
     return text;
 }
+
 // Метод определения размера будущего массива.
 int StringArraySizer(string text)
 {
@@ -42,6 +45,7 @@ int StringArraySizer(string text)
     }
     return size;
 }
+
 // Метод записи значений в массив.
 string[] StringArrayMaker(string text, int size)
 {
@@ -57,6 +61,7 @@ string[] StringArrayMaker(string text, int size)
     }
     return array;
 }
+
 // Метод вывода на экран всего массива.
 void StringArrayPrinter(string[] text)
 {
@@ -68,6 +73,7 @@ void StringArrayPrinter(string[] text)
     }
     Console.Write("]");
 }
+
 // Метод вывода нужных элементов массива.
 void CroppedStringArrayPrinter(string[] text)
 {
